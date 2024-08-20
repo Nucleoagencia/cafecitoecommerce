@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>Tienda Cafecito </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="shop.html">Tienda</a></li>
+                    <li><a href="about.html">Sobre Nosotros</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li id="lg-bag"><a class="active" href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <a href="#" id="close">,<i class="far fa-times"></i></a>
+                
+                </ul>
+            </div>
+            <div id="mobile">
+                <a href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+
+        <section id="page-header">
+            <h2>Tu Carrito</h2>
+            <p>Agrega tus productos favoritos</p>
+        </section>
+
+        <section id="product1" class="section-p1">
+            <div class="pro-container">
+               <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio. <i class="fa-regular fa-face-frown"></i></p>
+
+               <div id="carrito-productos" class="carrito-productos disabled">
+                    
+                </div>
+
+
+               <div id="carrito-acciones" class="carrito-acciones disabled">
+                <div class="carrito-acciones-izquierda">
+                    <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                </div>
+                <div class="carrito-acciones-derecha">
+                  <div class="carrito-acciones-total">
+                    <p>Total</p>
+                    <p id="total">$17000</p>
+                  </div>  
+                  <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                </div>
+               </div>
+
+               <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra.</p>
+            </div>
+
+
+        </section>
+
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/logo.png" alt="">
+                <h4>Contacto</h4>
+                <p><strong>Mail:</strong>agencia.nucleo23@gmail.com </p>
+                <div class="follow">
+                    <h4>¡Síguenos en nuestras redes sociales!</h4>
+                    <div class="icon">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>Sobre nosotros</h4>
+                <a href="#">Sobre nosotros</a>
+                <a href="#">Terminos y condiciones</a>
+                <a href="#">Contacto</a>
+            </div>
+
+            <div class="col">
+                <h4>Mi cuenta</h4>
+                <a href="#">Ingresar</a>
+                <a href="#">Ver mi carrito</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Ayuda</a>
+            </div>
+
+            <div class="col install">
+                <h4>Conoce nuestra app</h4>
+                <p>Descargala en App Store o Google Play</p>
+                <div class="row">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+                <p>Metodos de pago</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
+
+            <div class="copyright">
+                <p>@ 2024, Nucleo Agencia - Cafecito Ecommerce</p>
+            </div>
+
+        </footer>
+
+        <script src="carrito.js"></script>
+        <script src="script.js"></script>
+        
+    </body>
+</html>
